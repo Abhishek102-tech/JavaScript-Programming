@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(to top right, grey ,black);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: aqua;
+    padding: 2vw;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: brown;
+    padding: 2vw;
+}
+.click {
+    display: flex;
+    justify-content: center;    
+}
+.click button{
+    font-size: 1.5rem;
+    color: cadetblue;
+    background-color: black;
+    padding: 2vw;
+    border-radius: 40px;
+} 
+button:hover{
+    color: blanchedalmond;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+.heading:hover{
+    text-decoration: underline;
+}
+.item:hover{
+    text-decoration: underline;
+}
