@@ -1,0 +1,14 @@
+.idea{
+    padding: 5px;
+    color: blue;
+    text-decoration: underline;
+    font-size: 3rem;
+    text-align: center;
+    background-color: aqua;
+}
+.writing{
+    color: blueviolet;
+    font-size: 2rem;
+    text-align: center;
+    padding: 3px;
+}
