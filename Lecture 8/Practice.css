@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.para1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.para2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+.change{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    
+}
+.change .mode {
+    height: 10vh;
+    width: 20vw;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom, grey, black);
+    color: aliceblue;
+}
