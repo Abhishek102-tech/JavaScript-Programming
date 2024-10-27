@@ -40,6 +40,9 @@ let i=1;
                 container.before(el1);
                 container.before(el2);
             }
+            if(i==10){
+                para.innerText="Game Resulted in a Draw";
+            }
         })
         btn2.addEventListener("click",()=>{
             if(i%2!=0){
@@ -60,6 +63,9 @@ let i=1;
                 para.innerText=name2+" Wins"
                 container.before(el1);
                 container.before(el2);
+            }
+            if(i==10){
+                para.innerText="Game Resulted in a Draw";
             }
         })
         btn3.addEventListener("click",()=>{
@@ -82,6 +88,9 @@ let i=1;
                 container.before(el1);
                 container.before(el2);
             }
+            if(i==10){
+                para.innerText="Game Resulted in a Draw";
+            }
         })
         btn4.addEventListener("click",()=>{
             if(i%2!=0){
@@ -102,6 +111,9 @@ let i=1;
                 para.innerText=name2+" Wins"
                 container.before(el1);
                 container.before(el2);
+            }
+            if(i==10){
+                para.innerText="Game Resulted in a Draw";
             }
         })
         btn5.addEventListener("click",()=>{
@@ -124,6 +136,9 @@ let i=1;
                 container.before(el1);
                 container.before(el2);
             }
+            if(i==10){
+                para.innerText="Game Resulted in a Draw";
+            }
         })
         btn6.addEventListener("click",()=>{
             if(i%2!=0){
@@ -144,6 +159,9 @@ let i=1;
                 para.innerText=name2+" Wins"
                 container.before(el1);
                 container.before(el2);
+            }
+            if(i==10){
+                para.innerText="Game Resulted in a Draw";
             }
         })
         btn7.addEventListener("click",()=>{
@@ -166,6 +184,9 @@ let i=1;
                 container.before(el1);
                 container.before(el2);
             }
+            if(i==10){
+                para.innerText="Game Resulted in a Draw";
+            }
         })
         btn8.addEventListener("click",()=>{
             if(i%2!=0){
@@ -186,6 +207,9 @@ let i=1;
                 para.innerText=name2+" Wins"
                 container.before(el1);
                 container.before(el2);
+            }
+            if(i==10){
+                para.innerText="Game Resulted in a Draw";
             }
         })
         btn9.addEventListener("click",()=>{
@@ -208,7 +232,11 @@ let i=1;
                 container.before(el1);
                 container.before(el2);
             }
+            if(i==10){
+                para.innerText="Game Resulted in a Draw";
+            }
         })
+        
 play.addEventListener("click",()=>{
     btn1.innerText=" ";
     btn2.innerText=" ";
