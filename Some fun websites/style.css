@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://enlightenedstates.com/wp-content/uploads/2020/09/starry-sky-with-pink-milky-way-and-trees-night-lan-PWXXRTS-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.make{
+    height: 12vh;
+    width: 25vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    color: white;
+    font-size: 3vh;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#icon{
+    font-size: 4vh;
+}
+
+.make:hover{
+    border: 4px solid blue;
+}
