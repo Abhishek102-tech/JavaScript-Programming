@@ -29,6 +29,7 @@ body{
     border-radius: 0.75rem;
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     cursor: pointer;
     overflow: hidden;
     border-radius: 2rem;
@@ -70,7 +71,8 @@ body{
 }
 
 .description p{
-    color: #b0b0ba;
+    color: blueviolet;
+    font-weight: 700;
     padding-top: 5px;
 }
 
@@ -92,17 +94,17 @@ input:checked + label .description{
 }
 
 .card[for="c1"]{
-    background-image: url("https://images.wallpapersden.com/image/download/pikachu-pokemon-portrait_bGVmZWyUmZqaraWkpJRnZmtlrWhtaWU.jpg");
+    background-image: url("https://wallpapercave.com/wp/wp2561216.jpg");
 }
 
 .card[for="c2"]{
-    background-image: url("https://cdn.wallpapersafari.com/65/32/TsV156.png");
+    background-image: url("https://wallpapers.com/images/featured/ofxhdh8f390q66i3.jpg");
 }
 
 .card[for="c3"]{
-    background-image: url("https://i.pinimg.com/originals/d7/96/93/d7969336c37e2396494af64e6411339c.jpg");
+    background-image: url("https://wallpapercave.com/wp/dfjR20Q.jpg");
 }
 
 .card[for="c4"]{
-    background-image: url("https://th.bing.com/th/id/OIP.YxgxXO3oEjcVlPv03he17gHaHg?rs=1&pid=ImgDetMain");
+    background-image: url("https://wallpapercave.com/wp/wp2388391.png");
 }
