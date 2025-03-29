@@ -13,6 +13,7 @@ body{
 }
 
 .calculator{
+    position: relative;
     height: 50vh;
     width: 25vw;
     background-color: rgba(0, 217, 255, 0.9);
@@ -20,7 +21,35 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid violet;
+}
+
+@property --angle {
+    syntax: '<angle>';
+    inherits: false;
+    initial-value: 0deg;
+}
+
+.calculator::before,.calculator::after{
+    content: '';
+    position: absolute;
+    width: 103%;
+    height: 103%;
+    background: conic-gradient(from var(--angle), red,blue, green, yellow, orange, red);
+    z-index: -1;
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        --angle: 0deg;
+    }
+    100% {
+        --angle: 360deg;
+    }
+}
+
+.calculator::after{
+    filter: blur(15px);
 }
 
 .screen{
