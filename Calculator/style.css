@@ -83,6 +83,31 @@ body{
     background-color: rgba(255, 0, 0, 0.8);
     cursor: pointer;
 }
+/* less than 5000 */
+@media screen and (max-width: 500px){
+    .calculator{
+        height: 80vh;
+        width: 90vw;
+    }
+
+    .screen{
+        width: 85vw;
+        height: 10vh;
+    }
+
+    .buttons{
+        height: 60vh;
+        width: 90vw;
+    }
+
+    .btn{
+        font-size: 2rem;
+    }
+    #equal{
+        font-size: 2rem;
+    }
+    
+}
 
 
 
