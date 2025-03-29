@@ -27,7 +27,7 @@ body{
 .card{
     width: 80px;
     border-radius: 0.75rem;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
