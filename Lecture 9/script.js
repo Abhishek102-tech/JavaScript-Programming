@@ -1,14 +1,20 @@
-const employee ={
-    clacTax() {
-        console.log("Tax rate is 10%")
+class Toyota{
+    constructor(){
+        console.log("Toyota Car is being created...");
     }
-};
-
-const Abhishek = {
-    salary: 50000,
-    clacTax() {
-        console.log("Your tax is 20%")
+    start(){
+        console.log("Toyota is starting...");
     }
-};
 
-Abhishek.__proto__ = employee; // Setting the prototype of Abhishek to employee
+    stop(){
+        console.log("Toyota is stopping...");
+    }
+
+    setBrand(brand){
+        this.brand = brand;
+    }
+} 
+
+let innova = new Toyota();
+innova.setBrand("Innova");
+let fortuner = new Toyota();
