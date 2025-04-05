@@ -54,7 +54,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 .date{
-    display: inline;
+    display: inline-flex;
     height: 13vh;
     width: 24vw;
     font-size: 3rem;
@@ -65,8 +65,8 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 .day{
-    display: inline;
-    height: 11vh;
+    display: inline-flex;
+    height: 13vh;
     width: 24vw;
     text-align: center;
     font-size: 3rem;
