@@ -12,6 +12,7 @@ class Admin extends user{
     constructor(name, email){
         super(name, email);
     }
+    // print(f"vjgfygy {nzame}")
 
     editData(student, name, email){
         student.name = name;

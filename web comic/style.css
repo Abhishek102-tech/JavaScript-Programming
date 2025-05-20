@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: linear-gradient(to bottom, green, limegreen);
+    width: 100vw;
+    height: 15vh;
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.navbar .icon{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20000px;
+}
+.logo{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.update{
+    background: linear-gradient(to bottom, green, limegreen);
+    width: 100vw;
+    height: 15vh;
+    padding: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+.updates{
+    height: 10vh;
+    width: 25vw;
+    background: white;
+    border: 0.125px solid #c5c0bf;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: grey;
+    margin-bottom: 10vh;
+}
+.view{
+    height: 5vh;
+    width: 15vw;
+    border: 2px solid white;
+    border-radius:6px;
+    color: white;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.comics{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.c{
+    height: 25vh;
+    width: 100vw;
+}
+#c1{
+
+}
+#c2{
+
+}
+#c3{
+
+}
+
+
