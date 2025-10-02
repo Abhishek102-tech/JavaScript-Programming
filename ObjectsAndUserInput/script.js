@@ -30,11 +30,5 @@ document.getElementById("addBtn").addEventListener("click", function() {
         alert("You are not eligible to open an account.");
     }
 });
-let savedAccount = localStorage.getItem("accountHolder");
 
-let list = document.getElementById("userList");
-if (savedAccount) {
-    let accountObj = JSON.parse(savedAccount);
-    console.log(accountObj);
-    list.innerHTML = `<li>Name: ${accountObj.name}</li><li>Amount: ${accountObj.amount}</li>`;
-}
+
